@@ -70,9 +70,10 @@ a:hover {
 }
 
 .card {
-
+    box-shadow: 2px 1px 2px 2px rgb(190, 190, 190);
     height: 200px;
     width: 300px;
+    margin: 5px;
 }
 
 
