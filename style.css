@@ -63,7 +63,7 @@ a:hover {
 }
 
 .produtos-grid {
-    width: 70vw;
+    /* width: 70vw; */
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -82,6 +82,20 @@ a:hover {
 }
 
 .card p {
+    font-size: 12px;
+}
+
+.rodape {
+    width: 100vw;
+    height: 10vh;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape p,
+a {
     font-size: 12px;
 }
 
@@ -112,6 +126,20 @@ a:hover {
         gap: 30px;
     }
 
+    .card {
+        height: 200px;
+        width: 150px;
+        margin: 5px;
+    }
+
+    .card-image {
+        width: 130px;
+    }
+
+    .card p {
+        font-size: 8px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -130,6 +158,10 @@ a:hover {
     .cabecalho-links {
         padding-right: 10vw;
         gap: 30px;
+    }
+
+    .produtos-grid {
+        grid-template-columns: auto auto;
     }
 
 }
