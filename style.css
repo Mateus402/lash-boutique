@@ -94,6 +94,10 @@ a:hover {
     justify-content: center;
 }
 
+.rodapelinks {
+    margin-left: 10px;
+}
+
 .rodape p,
 a {
     font-size: 12px;
